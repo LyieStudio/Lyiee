@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lyie.Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Lyie.Studio</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="instagram.html">Instagram</a>
+        <a class="btn" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h1>Instagram Feed</h1>
+      <p class="muted">Auto-updating feed from <a href="https://www.instagram.com/lyie_studio" target="_blank" rel="noopener">@lyie_studio</a>.</p>
+
+      <!-- Option A (Easiest): Paste your widget iframe from SnapWidget/LightWidget below -->
+      <!-- Replace the placeholder iframe with your own from the widget provider -->
+      <div class="widget">
+        <div class="placeholder wide">Paste your Instagram widget iframe here</div>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- Option B (Advanced): Use Instafeed.js with your Instagram Basic Display API token -->
+      <!-- 1) Get a token, 2) open assets/js/insta.js and set USER_ID & ACCESS_TOKEN, 3) uncomment the two lines below -->
+      <!-- <div id="instafeed" class="grid insta"></div> -->
+      <!-- <script defer src="assets/js/insta.js"></script> -->
+    </div>
+  </section>
+</main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand mark">Lyie.Studio</div>
+          <p class="muted">Clothes · Accessories · Beauty</p>
+        </div>
+        <div>
+          <p class="muted">Follow</p>
+          <ul class="links">
+            <li><a href="https://www.instagram.com/lyie_studio" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="muted">Contact</p>
+          <ul class="links">
+            <li><a href="mailto:hello@lyie.studio">hello@lyie.studio</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="tiny muted">© <span id="year"></span> Lyie.Studio. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

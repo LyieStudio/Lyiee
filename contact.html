@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lyie.Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Lyie.Studio</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="instagram.html">Instagram</a>
+        <a class="btn" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<main>
+  <section class="section">
+    <div class="container narrow">
+      <h1>Contact</h1>
+      <p class="muted">Say hello or ask about our products.</p>
+      <form class="form" action="#" method="post" onsubmit="alert('This form is a demo. Replace action with your email service.'); return false;">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="your@email.com" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" placeholder="Hi Lyie.Studio..." required></textarea>
+        </label>
+        <button class="btn" type="submit">Send</button>
+      </form>
+
+      <div class="contact-links">
+        <a class="link" href="mailto:hello@lyie.studio">hello@lyie.studio</a>
+        <a class="link" href="https://www.instagram.com/lyie_studio" target="_blank" rel="noopener">Instagram @lyie_studio</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand mark">Lyie.Studio</div>
+          <p class="muted">Clothes · Accessories · Beauty</p>
+        </div>
+        <div>
+          <p class="muted">Follow</p>
+          <ul class="links">
+            <li><a href="https://www.instagram.com/lyie_studio" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="muted">Contact</p>
+          <ul class="links">
+            <li><a href="mailto:hello@lyie.studio">hello@lyie.studio</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="tiny muted">© <span id="year"></span> Lyie.Studio. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
